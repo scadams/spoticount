@@ -116,5 +116,5 @@ writeJSON('spotify_playcount_artists_songs_flat.json', artistSongFlatPlayCounts)
 // Create CSV files
 writeCSV('spotify_playcount_songs.csv', songPlayCounts);
 writeCSV('spotify_playcount_artists.csv', artistPlayCounts);
-writeCSV('spotify_playcount_artists_songs_flat.csv', artistSongFlatPlayCounts);
+writeCSV('spotify_playcount_artists_songs.csv', artistSongFlatPlayCounts);
 
